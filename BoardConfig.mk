@@ -138,4 +138,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
+DEVICE_RESOLUTION := 1280x800
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+
 -include vendor/lge/mako/BoardConfigVendor.mk
